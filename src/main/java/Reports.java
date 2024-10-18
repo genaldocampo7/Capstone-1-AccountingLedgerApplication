@@ -14,7 +14,13 @@ public class Reports {
     public static void ReportsMenu() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Reports:");
-        System.out.println("Please select one of the following: \n 1) Month to Date \n 2) Previous Month \n 3) Year to Date \n 4) Previous Year \n 5) Search by Vendor \n 0) Back");
+        System.out.println("Please select one of the following: \n " +
+                "1) Month to Date \n " +
+                "2) Previous Month \n " +
+                "3) Year to Date \n " +
+                "4) Previous Year \n " +
+                "5) Search by Vendor \n " +
+                "0) Back");
 
 
         ArrayList<Transactions> reports = new ArrayList<>(); // created an Array list to manage order of data from CSV file

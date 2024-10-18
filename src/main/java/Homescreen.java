@@ -16,7 +16,12 @@ public class Homescreen {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome!");
         scanner.nextLine();
-        System.out.println("What would you like to do? \n D) Add Deposit\n P) Make Payment(Debit) \n L) Ledger \n X) Exit");
+        System.out.println("What would you like to do? \n " +
+                "D) Add Deposit \n " +
+                "P) Make Payment(Debit) \n " +
+                "L) Ledger \n " +
+                "X) Exit");
+
         String choice = scanner.nextLine();
 
         // Try & catch method to catch exception error. Created bufferedwriter to write on CSV file. appended file using true

@@ -17,7 +17,12 @@ public class Ledger {
     public static void LedgerMenu () {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ledger:");
-        System.out.println("Please select one of the following: \n A) All - Displays all entries \n D) Deposits \n P) Payments \n R) Reports \n H) Home ");
+        System.out.println("Please select one of the following: \n " +
+                "A) All - Displays all entries \n " +
+                "D) Deposits \n " +
+                "P) Payments \n " +
+                "R) Reports \n " +
+                "H) Home ");
 
 
         ArrayList<Transactions> entryList = new ArrayList<>(); // created an Array list to manage order of data from CSV file
